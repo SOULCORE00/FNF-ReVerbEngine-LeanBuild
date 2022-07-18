@@ -1,5 +1,5 @@
 # Friday Night Funkin' ReVerb Engine: Lean Build
-This is a modified version of the Vanilla version of Friday Night Funkin' (a joke engine lmao)
+This is a modified version of the Vanilla Friday Night Funkin', a joke engine (We  won't update this everyday because we're busy with other mods and life lmao)
 ![logo](https://user-images.githubusercontent.com/69995597/179507260-db8f87c3-45c9-469c-ae0f-d5104377a3c5.png)
 
 ## How to Compile
@@ -32,7 +32,7 @@ This is a modified version of the Vanilla version of Friday Night Funkin' (a jok
 ![image](https://user-images.githubusercontent.com/69995597/179505421-8eadfe49-85c5-433d-a444-ef881b454589.png)
 
 * Donate Button show the credits
-
+Press enter in the selected name and it'll show you links to Twitter/Youtube lol (We'll add Discord someday)
 ![image](https://user-images.githubusercontent.com/69995597/179503047-62b97dde-daf2-4ed0-bcb0-25a7c680e30d.png)
 
 * Options added (most based on Kade Engine 1.4.2)
