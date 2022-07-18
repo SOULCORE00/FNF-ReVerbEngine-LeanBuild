@@ -5,7 +5,7 @@
 
 ## How to Compile
 * [Download Haxe 4.1.5](https://haxe.org/download/version/4.1.5/)
-* [Read ninjamuffin99's COmpiling tutorial](https://github.com/ninjamuffin99/Funkin#build-instructions)
+* [Read ninjamuffin99's Compiling tutorial](https://github.com/ninjamuffin99/Funkin#build-instructions)
 
 ## Credits
 * [AquaStrikr](https://twitter.com/AquaStrikr_) - Director and Artist
