@@ -6,7 +6,7 @@
 ## How to Compile
 [Download the most recent Haxe version](https://haxe.org/download/) and read [this](https://github.com/ninjamuffin99/Funkin#build-instructions)
 
-### Credits
+## Credits
 * [AquaStrikr](https://twitter.com/AquaStrikr_) - Director and Artist
 * [NoobZiiTo](https://twitter.com/NoobZiiTo1) - Co-Director and Programmer
 
