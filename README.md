@@ -1,5 +1,6 @@
 # Friday Night Funkin' ReVerb Engine: Lean Build
-This is a modified version of the Vanilla Friday Night Funkin', a joke engine (We  won't update this everyday because we're busy with other mods and life lmao)
+- This is a modified version of the Vanilla Friday Night Funkin', a joke engine
+- We  won't update this everyday because we're busy with other mods and life lmao
 ![logo](https://user-images.githubusercontent.com/69995597/179507260-db8f87c3-45c9-469c-ae0f-d5104377a3c5.png)
 
 ## How to Compile
