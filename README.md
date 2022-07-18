@@ -4,7 +4,8 @@
 ![logo](https://user-images.githubusercontent.com/69995597/179507260-db8f87c3-45c9-469c-ae0f-d5104377a3c5.png)
 
 ## How to Compile
-[Download the most recent Haxe version](https://haxe.org/download/) and read [this](https://github.com/ninjamuffin99/Funkin#build-instructions)
+* [Download Haxe 4.1.5](https://haxe.org/download/version/4.1.5/)
+* [Read ninjamuffin99's COmpiling tutorial](https://github.com/ninjamuffin99/Funkin#build-instructions)
 
 ## Credits
 * [AquaStrikr](https://twitter.com/AquaStrikr_) - Director and Artist
