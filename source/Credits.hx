@@ -30,11 +30,7 @@ import lime.utils.Assets;
 import Discord.DiscordClient;
 #end
 using StringTools;
-/*
-hi cool lil committers looking at this code, 95% of this is my code and I'd appreciate if you didn't steal it without asking for my permission
--vs dave dev T5mpler 
-i have to put this here just in case you think of doing so
-*/
+
 class Credits extends MusicBeatState
 {
 	var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('menuBG'));
@@ -55,19 +51,21 @@ class Credits extends MusicBeatState
    var peopleInCredits:Array<Person> = 
    [
       //devs
-     new Person("AquaStrikr", CreditsType.Dev, "Director, Creator, Artist, Mid ass",
+     new Person("AquaStrikr", CreditsType.Dev, "Owner, Artist, Lean Lover",
         [
            new Social('twitter', 'https://twitter.com/AquaStrikr_'),
+           new Social('newgrounds', 'https://daaquastrikr.newgrounds.com'),
          ]
       ),
-      new Person("NooBZiiTo", CreditsType.Dev, "Co-Director, Programmer",
+      new Person("NooBZiiTo", CreditsType.Dev, "Co-Owner, Programmer, Cock Lover",
          [
             new Social('youtube', 'https://www.youtube.com/c/NooBZiiTo'),
-            new Social('twitter', 'https://twitter.com/NooBZiiTo1')
+            new Social('twitter', 'https://twitter.com/NooBZiiTo1'),
          ]
       ),
-      new Person("you", CreditsType.Dev, "for expect nothing",
+      new Person("Discord Server", CreditsType.Dev, "A Chaotic Land",
          [
+            new Social('discord', 'https://discord.gg/qrngmWvxzP')
          ]
       ),
    ];
@@ -94,7 +92,7 @@ class Credits extends MusicBeatState
       bg.scrollFactor.set();
 		add(bg);
       
-      var developer:Array<Person> = new Array<Person>();
+      var developers:Array<Person> = new Array<Person>();
       var codeveloper:Array<Person> = new Array<Person>();
       var you:Array<Person> = new Array<Person>();
 
@@ -102,7 +100,7 @@ class Credits extends MusicBeatState
       {
          switch (person.creditsType)
          {
-            case Dev: developer.push(person);
+            case Dev: developers.push(person);
             case CoDev: codeveloper.push(person);
             case You: you.push(person);
          }
@@ -111,13 +109,13 @@ class Credits extends MusicBeatState
       for (i in 0...peopleInCredits.length)
       {
          var currentPerson = peopleInCredits[i];
-         if (currentPerson == developer[0] || currentPerson == codeveloper[0] || currentPerson == you[0])
+         if (currentPerson == developers[0] || currentPerson == codeveloper[0] || currentPerson == you[0])
          {
             var textString:String = '';
             switch (currentPerson.creditsType)
             {
                case Dev:
-                  textString = 'developer';
+                  textString = 'developers';
                case CoDev:
                   textString = 'codeveloper';
                case You:
