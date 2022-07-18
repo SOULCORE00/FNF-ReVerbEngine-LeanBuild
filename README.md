@@ -8,8 +8,8 @@
 * [Read ninjamuffin99's Compiling tutorial](https://github.com/ninjamuffin99/Funkin#build-instructions)
 
 ## Credits
-* [AquaStrikr](https://twitter.com/AquaStrikr_) - Director and Artist
-* [NoobZiiTo](https://twitter.com/NoobZiiTo1) - Co-Director and Programmer
+* [AquaStrikr](https://twitter.com/AquaStrikr_) - Owner and Artist
+* [NoobZiiTo](https://twitter.com/NoobZiiTo1) - Co-Owner and Programmer
 
 #### Special Thanks
 * [KadeDev](https://twitter.com/kade0912) - Kade Engine 1.4.2 Input System
