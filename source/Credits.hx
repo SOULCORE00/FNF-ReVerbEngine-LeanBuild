@@ -30,7 +30,11 @@ import lime.utils.Assets;
 import Discord.DiscordClient;
 #end
 using StringTools;
-
+/*
+hi cool lil committers looking at this code, 95% of this is my code and I'd appreciate if you didn't steal it without asking for my permission
+-vs dave dev T5mpler 
+i have to put this here just in case you think of doing so
+*/
 class Credits extends MusicBeatState
 {
 	var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('menuBG'));
@@ -51,19 +55,35 @@ class Credits extends MusicBeatState
    var peopleInCredits:Array<Person> = 
    [
       //devs
-     new Person("AquaStrikr", CreditsType.Dev, "Owner, Artist, Lean Lover",
-        [
+     new Person("AquaStrikr", CreditsType.Dev, "Owner, Artist, Additional Progammer, Lean Lover",
+         [
+           new Social('youtube', 'https://www.youtube.com/c/AquaStrikr'),
            new Social('twitter', 'https://twitter.com/AquaStrikr_'),
            new Social('newgrounds', 'https://daaquastrikr.newgrounds.com'),
          ]
       ),
       new Person("NooBZiiTo", CreditsType.Dev, "Co-Owner, Programmer, Cock Lover",
          [
-            new Social('youtube', 'https://www.youtube.com/c/NooBZiiTo'),
-            new Social('twitter', 'https://twitter.com/NooBZiiTo1'),
+           new Social('youtube', 'https://www.youtube.com/c/NooBZiiTo'),
+           new Social('twitter', 'https://twitter.com/NooBZiiTo1'),
          ]
       ),
-      new Person("Discord Server", CreditsType.Dev, "A Chaotic Land",
+       //specialthanks
+       new Person("KadeDev", CreditsType.Dev, "Kade Engnine 1.4.2 Input System",
+         [
+           new Social('youtube', 'https://www.youtube.com/c/KadeDev'),
+           new Social('twitter', 'https://twitter.com/kade0912'),
+           new Social('newgrounds', 'https://kade-developer.newgrounds.com'),
+         ]
+      ),
+      new Person("Mib'sfiha", CreditsType.Dev, "He ate a fucking brick",
+         [
+           new Social('youtube', 'https://www.youtube.com/c/MibsfihaViciadoemdormirpracarai/'),
+           new Social('twitter', 'https://twitter.com/Mibsfiha'),
+         ]
+      ),
+       //discord
+      new Person("Aqua Zone", CreditsType.Dev, "A Chaotic Place",
          [
             new Social('discord', 'https://discord.gg/qrngmWvxzP')
          ]
@@ -92,7 +112,7 @@ class Credits extends MusicBeatState
       bg.scrollFactor.set();
 		add(bg);
       
-      var developers:Array<Person> = new Array<Person>();
+      var developer:Array<Person> = new Array<Person>();
       var codeveloper:Array<Person> = new Array<Person>();
       var you:Array<Person> = new Array<Person>();
 
@@ -100,7 +120,7 @@ class Credits extends MusicBeatState
       {
          switch (person.creditsType)
          {
-            case Dev: developers.push(person);
+            case Dev: developer.push(person);
             case CoDev: codeveloper.push(person);
             case You: you.push(person);
          }
@@ -109,17 +129,17 @@ class Credits extends MusicBeatState
       for (i in 0...peopleInCredits.length)
       {
          var currentPerson = peopleInCredits[i];
-         if (currentPerson == developers[0] || currentPerson == codeveloper[0] || currentPerson == you[0])
+         if (currentPerson == developer[0] || currentPerson == codeveloper[0] || currentPerson == you[0])
          {
             var textString:String = '';
             switch (currentPerson.creditsType)
             {
                case Dev:
-                  textString = 'developers';
-               case CoDev:
-                  textString = 'codeveloper';
-               case You:
-                  textString = 'you';
+                  textString = 'ReVerb Engine Team';
+               case SpecialThanks:
+                  textString = 'Special Thanks';
+               case Discord:
+                  textString = 'Discord';
             }
             var titleText:FlxText = new FlxText(0, 0, 0, textString);
             titleText.setFormat("VCR OSD Mono", 64, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
