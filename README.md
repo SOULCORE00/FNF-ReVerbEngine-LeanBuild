@@ -10,10 +10,10 @@
 ## Credits
 * [AquaStrikr](https://twitter.com/AquaStrikr_) - Owner and Artist
 * [NoobZiiTo](https://twitter.com/NoobZiiTo1) - Co-Owner and Programmer
-* [Mib'sfiha](https://twitter.com/Mibsfiha) - Emotional Support
 
 #### Special Thanks
 * [KadeDev](https://twitter.com/kade0912) - Kade Engine 1.4.2 Input System
+* [Mib'sfiha](https://twitter.com/Mibsfiha) - Emotional Support
 
 ### Funkin' Crew
 * [ninjamuffin99](https://twitter.com/ninja_muffin99) - Programming
