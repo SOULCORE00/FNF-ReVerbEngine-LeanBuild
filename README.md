@@ -23,16 +23,20 @@
 
 ## Gameplay Changes
 * Bouncing Icons + Custom Health Bar Colors
+
 ![image](https://user-images.githubusercontent.com/69995597/179504679-c6ef1d39-6ba8-4363-a206-45a6799cdb27.png)
 
 * Ghost Tapping
+
 ![image](https://user-images.githubusercontent.com/69995597/179505683-e9633edf-be4b-4463-bd1c-dbebb938ffa8.png)
 
 * Opponent's Strumline glows + Fixed hold note
+
 ![image](https://user-images.githubusercontent.com/69995597/179505421-8eadfe49-85c5-433d-a444-ef881b454589.png)
 
 * Donate Button show the credits
 Press enter in the selected name and it'll show you links to Twitter/Youtube lol
+
 ![image](https://user-images.githubusercontent.com/69995597/179503047-62b97dde-daf2-4ed0-bcb0-25a7c680e30d.png)
 
 * Options added (most based on Kade Engine 1.4.2)
