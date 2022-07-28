@@ -39,7 +39,7 @@ Press enter in the selected name and it'll show you links to Twitter/Youtube lol
 
 ![image](https://user-images.githubusercontent.com/69995597/179503047-62b97dde-daf2-4ed0-bcb0-25a7c680e30d.png)
 
-* Options added (most based on Kade Engine 1.4.2)
+* Options added (most based on Kade Engine 1.4.2, Load Replays doesn't work)
 
 ![image](https://user-images.githubusercontent.com/69995597/179503220-1fbefbdd-a148-4380-aa33-b3fdfcd8de0b.png)
 
