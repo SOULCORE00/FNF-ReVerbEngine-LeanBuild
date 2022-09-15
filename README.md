@@ -35,7 +35,7 @@
 ![image](https://user-images.githubusercontent.com/69995597/179505421-8eadfe49-85c5-433d-a444-ef881b454589.png)
 
 * Donate Button show the credits
-Press enter in the selected name and it'll show you links to Twitter/Youtube lol
+Press enter in the selected name and it'll show you links to Twitter, Youtube, Newgrounds, Discord or anything you want to add lol
 
 ![image](https://user-images.githubusercontent.com/69995597/179503047-62b97dde-daf2-4ed0-bcb0-25a7c680e30d.png)
 
