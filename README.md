@@ -8,7 +8,7 @@
 * [Read ninjamuffin99's Compiling tutorial](https://github.com/ninjamuffin99/Funkin#build-instructions)
 
 ## Credits
-* [AquaStrikr](https://twitter.com/AquaStrikr_) - Owner and Artist
+* [SOULC0DE](https://twitter.com/SOULC0DE) - Owner, Artist and Additional Programmer
 * [NoobZiiTo](https://twitter.com/NoobZiiTo1) - Co-Owner and Programmer
 
 #### Special Thanks
@@ -17,7 +17,7 @@
 
 ### Funkin' Crew
 * [ninjamuffin99](https://twitter.com/ninja_muffin99) - Programming
-* [PhantomArcade3K](https://twitter.com/phantomarcade3k) - Animation
+* [PhantomArcade3K](https://twitter.com/phantomarcade3k) - Animation/Art
 * [Evilsk8r](https://twitter.com/evilsk8r) - Art
 * [Kawaisprite](https://twitter.com/kawaisprite) - Music
 
